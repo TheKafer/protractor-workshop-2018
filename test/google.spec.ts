@@ -7,3 +7,4 @@ describe('This is the first example of protractor', () => {
     expect(browser.getTitle()).toEqual('Google');
   });
 });
+
