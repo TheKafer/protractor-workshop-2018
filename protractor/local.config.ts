@@ -8,4 +8,3 @@ export const config: Config = {
     browser.ignoreSynchronization = true;
   }
 };
-
