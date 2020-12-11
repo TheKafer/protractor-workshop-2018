@@ -8,5 +8,11 @@ export const config: Config = {
   onPrepare: () => {
     browser.ignoreSynchronization = true;
     reporter();
+  },
+  capabilities: {
+    browserName: 'chrome',
+    chromeOptions: {
+      args: ['--headless', '--disable-gpu']
+    }
   }
 };
