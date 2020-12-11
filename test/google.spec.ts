@@ -8,4 +8,3 @@ describe('This is the first example of protractor', () => {
   });
 });
 
-

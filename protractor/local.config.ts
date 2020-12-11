@@ -5,5 +5,3 @@ export const config: Config = {
   specs: [ '../test/google.spec.js' ],
   seleniumAddress: 'http://localhost:4444/wd/hub'
 };
-
-
