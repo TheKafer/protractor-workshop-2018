@@ -1,4 +1,3 @@
-
 import { $, ElementFinder } from 'protractor';
 
 export class ShippingStepPage {

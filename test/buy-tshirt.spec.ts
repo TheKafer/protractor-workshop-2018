@@ -33,7 +33,6 @@ describe('Open the Page', () => {
       await productListPage.selectProduct('Faded Short Sleeve T-shirts');
 
       // Add to the car
-
       await productAddedModalPage.proceedToCheckout();
 
       // Clic in the checkOut button

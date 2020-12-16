@@ -1,4 +1,3 @@
-
 import { readFileSync, existsSync, mkdirSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
 import * as fetch from 'isomorphic-fetch';

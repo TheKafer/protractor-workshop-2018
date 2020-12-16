@@ -1,7 +1,7 @@
 import { browser } from 'protractor';
 import { PersonalInformationPage } from '../src/page';
 
-describe('Practice automation', () => {
+describe('Practice automation Workshop 1, Fill a form', () => {
   beforeAll(async () => {
     await browser.get('https://www.tutorialspoint.com/selenium/selenium_automation_practice.htm');
   });
