@@ -3,7 +3,7 @@ import { PersonalInformationPage } from '../src/page';
 
 describe('Practice automation', () => {
   beforeAll(async () => {
-    await browser.get('https://www.tutorialspoint.com/selenium/selenium_automation_practice.html');
+    await browser.get('https://www.tutorialspoint.com/selenium/selenium_automation_practice.htm');
   });
 
   describe('Fill form', () => {
