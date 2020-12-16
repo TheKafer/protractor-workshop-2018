@@ -3,7 +3,7 @@ import { PersonalInformationPage } from '../src/page';
 
 describe('Practice automation', () => {
   beforeAll(async () => {
-    await browser.get('https://www.tutorialspoint.com/selenium/selenium_automation_practice.htm');
+    await browser.get('https://www.tutorialspoint.com/selenium/selenium_automation_practice.html');
   });
 
   describe('Fill form', () => {
@@ -31,10 +31,6 @@ describe('Practice automation', () => {
 
     it('the form should be filled', async () => {
       expect(await personalInformationPage.getPageTitle()).toBe('Selenium - Automation Practice Form');
-    });
-
-    it('then filename should be loaded', async () => {
-      expect(await personalInformationPage.getFilename()).toBe('photo.png');
     });
 
   });
